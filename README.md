@@ -27,7 +27,7 @@ Repeat through multiple epochs for better denoising performance.
 
 ## PROGRAM
 
-### Name:Deepika R
+### Name:DEEPIKA R
 ### Register Number:212223230038
 
 ```
@@ -64,7 +64,7 @@ optimizer = optim.Adam(model.parameters(), lr=1e-3)
 # Training the autoencoder
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
-    print("Name:Deepika R")
+    print("Name:DEEPIKA R")
     print("Register Number:212223230038")
     for epoch in range(epochs):
         running_loss = 0.0
@@ -99,7 +99,7 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name:Deepika R ")
+    print("Name:DEEPIKA R ")
     print("Register Number:212223230038")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
