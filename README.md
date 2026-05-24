@@ -30,8 +30,7 @@ Repeat through multiple epochs for better denoising performance.
 ### Name:DEEPIKA R
 ### Register Number:212223230038
 
-```
-python
+```python
 # Denoising Autoencoder model
 class DenoisingAutoencoder(nn.Module):
     def __init__(self):
